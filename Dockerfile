@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.10
 
 # Install OS Modules
 RUN apt update -y && \
