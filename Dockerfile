@@ -7,7 +7,7 @@ RUN apt update -y && \
 
 # Copy source code
 RUN mkdir -p /data-copier
-COPY app /data-copier
+COPY app /data-copier/app
 COPY requirements.txt /data-copier
 
 # Install application dependencies
